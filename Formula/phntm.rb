@@ -1,28 +1,28 @@
 class Phntm < Formula
   desc "CLI for PHNTM - encrypted, self-destructing file sharing"
   homepage "https://phntm.sh"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/aliirz/phntm-cli/releases/download/v0.1.2/phntm_0.1.2_darwin_amd64.tar.gz"
-      sha256 "7c283c9de2d0b2b8d6a7d24cda35935eac453287d1dcfb757d9cf2be2b928a3f"
+      url "https://github.com/aliirz/phntm-cli/releases/download/v0.2.0/phntm_0.2.0_darwin_amd64.tar.gz"
+      sha256 "0da5862760a4853332fe34f1dbae8c3ea55cd0aeee4747924c402cd9d71b894f"
     end
     on_arm do
-      url "https://github.com/aliirz/phntm-cli/releases/download/v0.1.2/phntm_0.1.2_darwin_arm64.tar.gz"
-      sha256 "44b5385e48e5a5e3555ab1e772c381c7a80aaa18c3729068512f882eb74965f3"
+      url "https://github.com/aliirz/phntm-cli/releases/download/v0.2.0/phntm_0.2.0_darwin_arm64.tar.gz"
+      sha256 "34f1bb64193bd7d17108483cfabaecbc0198333fefbf7b08cb81cae820adb8f5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/aliirz/phntm-cli/releases/download/v0.1.2/phntm_0.1.2_linux_amd64.tar.gz"
-      sha256 "dc2f6fd41a254f3a0553db564f8fe298e5de5608d42f53a5888a151424f3b9fd"
+      url "https://github.com/aliirz/phntm-cli/releases/download/v0.2.0/phntm_0.2.0_linux_amd64.tar.gz"
+      sha256 "a056d4f9343d483c502a67bea802c026fddc30fa046f9d6227d82bdefee5a472"
     end
     on_arm do
-      url "https://github.com/aliirz/phntm-cli/releases/download/v0.1.2/phntm_0.1.2_linux_arm64.tar.gz"
-      sha256 "2cf52854fb89bf2b79f45f72e6faca87b305ade7f1930d131cbc6fef39974971"
+      url "https://github.com/aliirz/phntm-cli/releases/download/v0.2.0/phntm_0.2.0_linux_arm64.tar.gz"
+      sha256 "1a8b232aa49fcb13339ef47238b9e90641fcc6be19f18efdc4bc4522cecd1e69"
     end
   end
 
